@@ -1,8 +1,8 @@
 import { lazy } from "react";
 import PathConstants from "./pathContants";
 import Login from "../pages/Login";
-import DashboardRoute from "../components/dashboard/DashboardRoute";
 import Dashboard from "../components/dashboard/Dashboard";
+import DashboardRoute from "./dashboardRoute";
 const Home = lazy(() => import("../pages/home"));
 
 const routes = [
@@ -21,6 +21,7 @@ const routes = [
     {
         path: PathConstants.DASHBOARD,
         element: <Dashboard/>,
+        children: DashboardRoute
     }
 ];
 export default routes;

@@ -2,7 +2,7 @@ const PathConstants = {
     HOME: '/',
     SIGNIN: '/signin',
     SIGNUP: '/signup',
-    DASHBOARD: '/dashboard/*',
+    DASHBOARD: '/dashboard',
 }
 
 export default PathConstants;

@@ -1,6 +1,5 @@
 const DashboardPath = {
-    DASHBOARD: '/',
-    NOTE: '/notes',
+    NOTE: 'notes',
 }
 
 export default DashboardPath;
