@@ -7,6 +7,7 @@ const Navmenu = () => {
             <a href="/dashboard/notes" className="px-4 py-2 w-full">Notes</a>
             <a href="/dashboard/profile" className="px-4 py-2 w-full">Profile</a>
             <a href="/dashboard/logout" className="px-4 py-2 w-full">Logout</a>
+            <a href="/dashboard/settings" className="px-4 py-2 w-full">Settings</a>
         </div>
     </div>
   )
